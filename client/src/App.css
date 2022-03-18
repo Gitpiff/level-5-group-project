@@ -3,12 +3,18 @@
   background-size: cover;
   height: 100vh;
   margin-top: -1rem;
+  border-top:solid 2.5px rgba(14, 14, 14, 0.164) ;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 9px 6px 0px #000000; 
+  box-shadow: 0px 9px 6px 0px #000000;
 }
 
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content:space-evenly;
 }
 
 nav > div {
@@ -18,38 +24,32 @@ nav > div {
 
 nav div button {
   color: white;
-  background-color: rgb(255, 20, 20);
+  background-color: rgb(240, 10, 10);
   border-radius: 5px;
   width: 5rem;
   height: 2rem;
-  margin-left: 1rem;
+  margin-left: .5rem;
   font-weight: 600;
 }
 
 .header {
-  width: 80vw;
   height: 4rem;
   object-fit: contain;
 }
 
 .home {
-  padding-top: 15vh;
+  padding-top: 13vh;
   display: flex;
   justify-content: space-around;
 }
 
 .home img {  
-  border: 5px solid black;
-  border-radius: 20px;
+  border-radius: 80px;
+  background-color: rgb(240, 10, 10);
   height: 35rem;
   width: 35rem;
-  background-color: rgb(255, 0, 0);
-}
-
-.home h1 {
-  text-align: center;
-  color: black;
-  font-size: 10rem;
+  -webkit-box-shadow: 0px 9px 6px 0px #000000; 
+  box-shadow: 0px 9px 6px 0px #000000;
 }
 
 .home a {
@@ -58,4 +58,14 @@ nav div button {
 
 .search {
   padding-top: 3vh;
+}
+
+.dish-summary {
+  display: flex;
+  justify-content: row;
+}
+
+.dish-summary-text {
+  display: flex;
+  flex-direction: column;
 }
