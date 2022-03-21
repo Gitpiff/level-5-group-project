@@ -8,6 +8,7 @@ const menuSchema = new Schema({
         type: String,
         required: true
     },
+    //image
     cost: {
         type: Number,
         required: true
